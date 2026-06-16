@@ -1,0 +1,13 @@
+import areas.*
+import colonias.*
+import criaturas.*
+import mascotas.*
+import roles.*
+
+describe "Test criaturas del bosque" {
+
+  test "" {
+    assert.equals(100, pepita.energy())
+  }
+
+}
